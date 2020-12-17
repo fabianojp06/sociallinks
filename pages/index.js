@@ -48,7 +48,7 @@ const Index = ({ data }) => {
           <a href="https://devpleno.com">DevPleno</a>
           <br />
           Código-fonte disponível em:{" "}
-          <a href="https://github.com/fabianojp06">
+          <a href="https://github.com/">
             Fabiano Garcia
           </a>
         </div>
