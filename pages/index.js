@@ -16,7 +16,7 @@ const Index = ({ data }) => {
       <div className="w-1/2 mx-auto text-center">
         <h1 className="font-bold text-4xl p-8">{data.title}</h1>
         <img
-          src={data.logoa.url}
+          src={data.logob.url}
           className="mx-auto rounded-full shadow-2xl w-1/4"
         />
 
@@ -30,7 +30,9 @@ const Index = ({ data }) => {
             return (
               <div>
                 <a
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-2 inline-block"
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-2 inline-block
+                  border border-light-blue-300 shadow rounded-md p-4 max-w-sm w-full mx-auto"
+                  
                   href={item.primary.destino.url}
                 >
                   {item.primary.texto_do_botao}
