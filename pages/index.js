@@ -46,12 +46,12 @@ const Index = ({ data }) => {
           return null;
         })}
         <div className="text-center py-4">
-          Projeto criado durante o evento Dev10k do{" "}
-          <a href="https://devpleno.com">DevPleno</a>
+          Todos os direitos reservados do{" "}
+          <a href="https://lugartechonline.minhalojanouol.com.br/">Lugar Tech</a>
           <br />
           Código-fonte disponível em:{" "}
-          <a href="https://github.com/">
-            Fabiano Garcia
+          <a href="https://lugartechonline.minhalojanouol.com.br/">
+            Lugar Tech
           </a>
         </div>
       </div>
